@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv_message = (TextView)view.findViewById(R.id.tv_message);
         ProgressBar progress = (ProgressBar)view.findViewById(R.id.progress);
         alert.setView(view);
-        alert.setPositiveButton("Back", new DialogInterface.OnClickListener() {
+        alert.setNegativeButton("Back", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 alert.setCancelable(true);
@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
         });
         dialog = alert.create();
 
-        alert.setNegativeButton("Register", new DialogInterface.OnClickListener() {
+        alert.setPositiveButton("Register", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String a = etUsername.getText().toString();
-                Toast.makeText(MainActivity.this, "username " + a, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, a, Toast.LENGTH_SHORT).show();
             }
         });
         alert.show();
