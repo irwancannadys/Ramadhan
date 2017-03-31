@@ -1,4 +1,4 @@
-package com.domikado.ramadhan;
+package com.domikado.ramadhan.main;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.domikado.ramadhan.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

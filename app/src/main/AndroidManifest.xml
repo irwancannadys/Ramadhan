@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".main.MainActivity"
             android:theme="@style/themeLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomePage"
+            android:name=".main.HomePage"
             android:label="@string/title_activity_home_page"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
