@@ -5,11 +5,11 @@
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
-            android:title="My Notes" />
+            android:title="@string/list_notes" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Create Notes" />
+            android:title="@string/add_notes" />
     </group>
 
     <!--<item android:title="Communicate">-->

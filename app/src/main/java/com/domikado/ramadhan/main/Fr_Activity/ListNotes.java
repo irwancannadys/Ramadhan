@@ -1,5 +1,5 @@
 package com.domikado.ramadhan.main.Fr_Activity;
-// Created by irwancannady (irwancannady@gmail.com) on 3/31/17 at 3:40 PM.
+// Created by irwancannady (irwancannady@gmail.com) on 3/31/17 at 3:48 PM.
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,16 +13,15 @@ import com.domikado.ramadhan.R;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-public class CreateNotes extends Fragment{
+public class ListNotes extends Fragment {
 
-    Unbinder unbinder;
-
+    private Unbinder unbinder;
+    
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.create_notes, container, false);
+        View view = inflater.inflate(R.layout.listnotes, container, false);
         unbinder = ButterKnife.bind(getContext(), view);
-
         return view;
     }
 
